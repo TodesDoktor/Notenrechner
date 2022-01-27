@@ -30,7 +30,7 @@ function tfAuslesen() {
     }
     if(ergebnis > 5)   {document.getElementById("ausgabe").style.color = "royalblue";
     }
-    if(ergebnis > 11)   {    document.getElementById("ausgabe").style.color = "darkgreen";
+    if(ergebnis > 11)   {    document.getElementById("ausgabe").style.color = "green";
     }
 
 
