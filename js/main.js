@@ -14,6 +14,7 @@ function tfAuslesen() {
 
     console.log(n1 + ";" + n2 + ";" + n3 + ";" + n4 + ";" + n5 + ";")
 
+    //diese codes addieren die eingegebenen zahlen
 
     eingabeUeberpruefen(n1)
     eingabeUeberpruefen(n2)
@@ -32,7 +33,7 @@ function tfAuslesen() {
     }
     if(ergebnis > 11)   {    document.getElementById("ausgabe").style.color = "green";
     }
-
+                   //die obigen if codes färben die ergebnisse nach größe der Zahl
 
 
 
@@ -50,4 +51,4 @@ function tfAuslesen() {
       }
  }
 
-
+    //überprüft die eingabe ob es sich um eine zahl handelt (isNaN=Not a Number)
